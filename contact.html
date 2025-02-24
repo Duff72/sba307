@@ -47,82 +47,99 @@
       </ul>
     </div>
   </nav>
+  <br />
   <body>
     <div id="quiz" class="container">
-      <h3>Take this quiz to tell me about yourself</h3>
-      <div class="dropdown">
-        <button
-          class="btn btn-secondary dropdown-toggle"
-          type="button"
-          data-bs-toggle="dropdown"
-          aria-expanded="false"
-        >
-          What is your favorite color?
-        </button>
-        <ul class="dropdown-menu">
-          <li><a class="dropdown-item" href="#">Red</a></li>
-          <li><a class="dropdown-item" href="#">Blue</a></li>
-          <li><a class="dropdown-item" href="#">Yellow</a></li>
-          <li><a class="dropdown-item" href="#">Green</a></li>
-          <li><a class="dropdown-item" href="#">Orange</a></li>
-        </ul>
+      <div>
+        <h3>Take this quiz to tell me about yourself</h3>
+        <div class="dropdown">
+          <button
+            class="btn btn-secondary dropdown-toggle"
+            type="button"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            What is your favorite color?
+          </button>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Red</a></li>
+            <li><a class="dropdown-item" href="#">Blue</a></li>
+            <li><a class="dropdown-item" href="#">Yellow</a></li>
+            <li><a class="dropdown-item" href="#">Green</a></li>
+            <li><a class="dropdown-item" href="#">Orange</a></li>
+          </ul>
+        </div>
+
+        <br />
+
+        <div class="dropdown">
+          <button
+            class="btn btn-secondary dropdown-toggle"
+            type="button"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            What month were you born?
+          </button>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">January</a></li>
+            <li><a class="dropdown-item" href="#">February</a></li>
+            <li><a class="dropdown-item" href="#">March</a></li>
+            <li><a class="dropdown-item" href="#">April</a></li>
+            <li><a class="dropdown-item" href="#">May</a></li>
+            <li><a class="dropdown-item" href="#">June</a></li>
+            <li><a class="dropdown-item" href="#">July</a></li>
+            <li><a class="dropdown-item" href="#">August</a></li>
+            <li><a class="dropdown-item" href="#">September</a></li>
+            <li><a class="dropdown-item" href="#">October</a></li>
+            <li><a class="dropdown-item" href="#">November</a></li>
+            <li><a class="dropdown-item" href="#">December</a></li>
+          </ul>
+        </div>
+
+        <br />
+
+        <div class="dropdown">
+          <button
+            class="btn btn-secondary dropdown-toggle"
+            type="button"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            What kind of music do you like?
+          </button>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Rock</a></li>
+            <li><a class="dropdown-item" href="#">Hip-Hop</a></li>
+            <li><a class="dropdown-item" href="#">Jazz</a></li>
+            <li><a class="dropdown-item" href="#">Classical</a></li>
+            <li><a class="dropdown-item" href="#">Electronic</a></li>
+          </ul>
+        </div>
+
+        <br />
+
+        <div class="mb-3">
+          <label for="messageBox" class="form-label"
+            >Anything else we should know?</label
+          >
+          <textarea
+            class="form-control"
+            id="messageBox"
+            rows="3"
+            placeholder="Type your message here"
+            style="width: 50vw"
+          ></textarea>
+        </div>
+
+        <button type="button" class="btn btn-secondary btn-sm">Submit</button>
       </div>
-      <br />
-      <div class="dropdown">
-        <button
-          class="btn btn-secondary dropdown-toggle"
-          type="button"
-          data-bs-toggle="dropdown"
-          aria-expanded="false"
-        >
-          What month were you born?
-        </button>
-        <ul class="dropdown-menu">
-          <li><a class="dropdown-item" href="#">January</a></li>
-          <li><a class="dropdown-item" href="#">February</a></li>
-          <li><a class="dropdown-item" href="#">March</a></li>
-          <li><a class="dropdown-item" href="#">April</a></li>
-          <li><a class="dropdown-item" href="#">May</a></li>
-          <li><a class="dropdown-item" href="#">June</a></li>
-          <li><a class="dropdown-item" href="#">July</a></li>
-          <li><a class="dropdown-item" href="#">August</a></li>
-          <li><a class="dropdown-item" href="#">September</a></li>
-          <li><a class="dropdown-item" href="#">October</a></li>
-          <li><a class="dropdown-item" href="#">November</a></li>
-          <li><a class="dropdown-item" href="#">December</a></li>
-        </ul>
-      </div>
-      <br />
-      <div class="dropdown">
-        <button
-          class="btn btn-secondary dropdown-toggle"
-          type="button"
-          data-bs-toggle="dropdown"
-          aria-expanded="false"
-        >
-          What kind of music do you like?
-        </button>
-        <ul class="dropdown-menu">
-          <li><a class="dropdown-item" href="#">Rock</a></li>
-          <li><a class="dropdown-item" href="#">Hip-Hop</a></li>
-          <li><a class="dropdown-item" href="#">Jazz</a></li>
-          <li><a class="dropdown-item" href="#">Classical</a></li>
-          <li><a class="dropdown-item" href="#">Electronic</a></li>
-        </ul>
-      </div>
-      <br />
-      <div class="mb-3">
-        <label for="messageBox" class="form-label"
-          >Anything else we should know?</label
-        >
-        <textarea
-          class="form-control"
-          id="messageBox"
-          rows="3"
-          placeholder="Type your message here"
-        ></textarea>
-      </div>
-      <button type="button" class="btn btn-secondary btn-sm">Submit</button>
+      <img
+        src="typing.gif"
+        alt="typing hands"
+        id="typing"
+        style="width: 15em; height: 10em"
+      />
     </div>
 
     <div id="Contact" class="container">
@@ -134,6 +151,7 @@
           class="form-control"
           id="nameBox"
           placeholder="Type your name here"
+          style="width: 25vw"
         />
       </div>
       <div class="mb-3">
@@ -143,6 +161,7 @@
           class="form-control"
           id="emailBox"
           placeholder="name@example.com"
+          style="width: 25vw"
         />
       </div>
       <div class="mb-3">
@@ -154,6 +173,7 @@
           id="messageBox"
           rows="3"
           placeholder="Type your message here"
+          style="width: 50vw"
         ></textarea>
       </div>
       <button type="button" class="btn btn-secondary btn-sm">Submit</button
