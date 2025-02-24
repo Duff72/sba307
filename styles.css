@@ -1,0 +1,17 @@
+body {
+    background-color: rgb(180, 180, 255)
+}
+
+.boston{width: 7em;
+    height: 7em;
+    animation: boston 25s infinite;}
+
+@keyframes boston {
+        50% {transform: rotate(1080deg);}}
+
+.bass{width: 7em;
+    height: 7em;
+    animation: bass 2s infinite;}
+
+@keyframes bass {
+        50% {transform: rotate(25deg);}}
